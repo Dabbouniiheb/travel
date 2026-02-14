@@ -1,0 +1,108 @@
+{
+  "forfaits": [
+    {
+      "id": 1,
+      "name": "Mumbai",
+      "country": "India",
+      "image": "image/mumbai.jpg",
+      "price": 90,
+      "oldPrice": 120,
+      "rating": 4,
+      "description": "Explore the vibrant city of Mumbai with luxury hotels and guided tours."
+    },
+    {
+      "id": 2,
+      "name": "Sydney",
+      "country": "Australia",
+      "image": "image/syndney.webp",
+      "price": 95,
+      "oldPrice": 130,
+      "rating": 5,
+      "description": "Enjoy the beaches, Opera House and unforgettable adventures in Sydney."
+    },
+    {
+      "id": 3,
+      "name": "Hawaii",
+      "country": "USA",
+      "image": "image/hawaii.jpg",
+      "price": 150,
+      "oldPrice": 200,
+      "rating": 5,
+      "description": "Experience paradise with tropical beaches, volcano tours and island cruises."
+    },
+    {
+      "id": 4,
+      "name": "Paris",
+      "country": "France",
+      "image": "image/paris.jpg",
+      "price": 120,
+      "oldPrice": 170,
+      "rating": 4,
+      "description": "Discover the city of love, Eiffel Tower and world-class cuisine."
+    },
+    {
+      "id": 5,
+      "name": "Egypt",
+      "country": "Egypt",
+      "image": "image/egypte.jpg",
+      "price": 110,
+      "oldPrice": 150,
+      "rating": 4,
+      "description": "Visit the pyramids, Nile cruises and ancient wonders."
+    },
+    {
+      "id": 6,
+      "name": "Tokyo",
+      "country": "Japan",
+      "image": "image/tokyo.jpg",
+      "price": 140,
+      "oldPrice": 190,
+      "rating": 5,
+      "description": "Modern city mixed with tradition, temples and unique culture."
+    }
+  ],
+
+  "services": [
+    {
+      "icon": "fas fa-hotel",
+      "title": "Hotels abordables",
+      "description": "We provide affordable and luxury hotel options worldwide."
+    },
+    {
+      "icon": "fas fa-utensils",
+      "title": "Food & Drinks",
+      "description": "Enjoy the best food and beverage experiences during your trip."
+    },
+    {
+      "icon": "fas fa-plane",
+      "title": "Fast Travel",
+      "description": "Quick and comfortable flights to all destinations."
+    },
+    {
+      "icon": "fas fa-globe-asia",
+      "title": "Around the World",
+      "description": "Travel packages covering every continent."
+    }
+  ],
+
+  "reviews": [
+    {
+      "name": "John Deo",
+      "image": "image/personne1.jpg",
+      "rating": 4,
+      "comment": "Amazing service and unforgettable experience!"
+    },
+    {
+      "name": "Sarah Lee",
+      "image": "image/personne2.jpg",
+      "rating": 5,
+      "comment": "Best travel agency ever. Highly recommended!"
+    },
+    {
+      "name": "Michael Smith",
+      "image": "image/personne3.jpg",
+      "rating": 4,
+      "comment": "Everything was perfectly organized."
+    }
+  ]
+}
