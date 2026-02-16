@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Travel</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Panel</h1>
+    </header>
+
+    <section>
+        <h2>Ajouter un Destination</h2>
+        <form id="adminForm">
+            <input type="text" id="title" placeholder="Titre du voyage" required>
+            <input type="text" id="description" placeholder="Description" required>
+            <input type="number" id="price" placeholder="Prix en TND" required>
+            <button type="submit">Ajouter</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Liste des Destinations</h2>
+        <div id="adminCards"></div>
+    </section>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>
