@@ -543,3 +543,47 @@ header .navbar a:hover{
     color:var(--orange) ;
     text-decoration:underline;
 }
+
+
+.add-avis{
+  width: 75%;              
+  margin: 40px auto;
+  text-align: center;
+  border: 2px solid #ddd; 
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.add-avis form{
+  width: 100%;
+}
+
+.add-avis input,
+.add-avis textarea,
+.add-avis select{
+  width: 100%;
+  padding: 14px;           
+  margin: 12px 0;
+  font-size: 17px;
+  border: 1px solid #ccc; 
+  border-radius: 6px;
+  /*background: #dedbdb;*/
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.add-avis textarea{
+  min-height: 120px;
+}
+
+.add-avis button{
+  padding: 14px 32px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+  background: var(--orange);
+}
+.add-avis button:hover{
+    
+  color: #eee;
+  background:#e55d00; 
+}
