@@ -243,6 +243,27 @@ header .navbar a:hover{
     border: none;
    padding: 1rem;
 }
+/*hatha eli zitou fil bouton 2*/
+.forfait a.btn1{
+    background: #ffa500;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 5px;
+    display: inline-flex;          /* ➜ pour centrer le texte verticalement et horizontalement */
+    align-items: center;           /* centrage vertical */
+    justify-content: center;       /* centrage horizontal */
+    width: 150px;                  /* taille fixe identique pour tous les boutons */
+    height: 60px;                  /* hauteur fixe */
+}
+
+
+.forfait a.btn1:hover{
+    background: #e55d00;
+}
+
 .forfait .box-container{
     display: flex;
     flex-wrap: wrap;

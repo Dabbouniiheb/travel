@@ -59,6 +59,36 @@
       "oldPrice": 190,
       "rating": 5,
       "description": "Modern city mixed with tradition, temples and unique culture."
+    },
+    {
+      "id": 7,
+      "name": "comping",
+      "country": "comping",
+      "image": "image/comping.jpg",
+      "price": 140,
+      "oldPrice": 190,
+      "rating": 5,
+      "description": "comping avec nous."
+    },
+    {
+      "id": 8,
+      "name": "omra",
+      "country": "omra",
+      "image": "image/3omra.jpeg",
+      "price": 140,
+      "oldPrice": 190,
+      "rating": 5,
+      "description": "Modern city mixed with tradition, temples and unique culture."
+    },
+    {
+      "id": 9,
+      "name": "Tunisie",
+      "country": "Tunisie",
+      "image": "image/tunisie.jpg",
+      "price": 140,
+      "oldPrice": 190,
+      "rating": 5,
+      "description": "Modern city mixed with tradition, temples and unique culture."
     }
   ],
 

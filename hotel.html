@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel</title>
+    
+    <link rel="stylesheet" href="css/style_hotel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!--debut de la section d'en-tete-->
+    <header>
+        <a href="#" class="logo"><span>V</span>oyages</a>
+        <nav class="navbar">
+            <a href="#accueil">accueil</a>
+            <a href="#forfait">forfait</a>
+            <a href="#service">service</a>
+            <a href="#galerie">galerie</a>
+            <a href="#avis">avis</a>
+            <a href="#reserver">reserver</a>
+            <a href="#contact">contact</a>
+        </nav>
+    </header><br><br><br><br><br><br><br><br><br>
+    
+    <div class="hotel_bx">
+        <div class="hotelFilters">
+            <h3><i class="bi bi-funnel-fill"></i>Filter</h3>
+            <div class="filterCard">
+                <h4 for="Room_Amenities">Room Amenities</h4>
+                <div class="filterInput" id="amenties">
+                    <li><input type="checkbox" name="" id=""> parking</li>
+                </div>
+                <div class="filterInput" id="amenties">
+                    <li><input type="checkbox" name="" id=""> parking</li>
+                </div>
+                <div class="filterInput" id="amenties">
+                    <li><input type="checkbox" name="" id=""> parking</li>
+                </div>
+            </div>
+
+            <div class="filterCard">
+                <h4 for="Room_Amenities">price per night</h4>
+                <div class="filterInput" >
+                    <li class="dtarRating" data-="5"><input type="checkbox" name="" id=""> <span>Under 1000 Rs</span></li>
+                    <li class="dtarRating" data-="4"><input type="checkbox" name="" id=""> <span>Under 2000 Rs</span></li>
+                    <li class="dtarRating" data-="3"><input type="checkbox" name="" id=""> <span>Under 3000 Rs</span></li>
+                    <li class="dtarRating" data-="2"><input type="checkbox" name="" id=""> <span>Under 4000 Rs</span></li>
+                    <li class="dtarRating" data-="1"><input type="checkbox" name="" id=""> <span>Under 5000 Rs</span></li>
+                </div>
+            </div>
+
+            <div class="filterCard">
+                <h4 for="Room_Amenities">Star rating</h4>
+                <div class="filterInput" >
+                    <li class="dtarRating" data-="5"><input type="checkbox" name="" id=""> <span>5 Star</span></li>
+                    <li class="dtarRating" data-="4"><input type="checkbox" name="" id=""> <span>4 Star</span></li></li>
+                    <li class="dtarRating" data-="3"><input type="checkbox" name="" id=""> <span>3 Star</span></li></li>
+                    <li class="dtarRating" data-="2"><input type="checkbox" name="" id=""> <span>2 Star</span></li></li>
+                    <li class="dtarRating" data-="1"><input type="checkbox" name="" id=""> <span>1 Star</span></li></li>
+                </div>
+            </div>
+            
+
+
+        </div>
+
+        <div class="hotelsDetails">
+            <h3><i class="bi bi-buildings"></i> Hotels -> <span id="city">Mumbai</span></h3>
+            <div class="hotels" id="hotels">
+                <div class="img_bx">
+                    <img src="" alt="">
+                    <div class="subImages">
+                        <img src="image/rajb_hotel.jpg" alt="">
+                        <img src="image/rajb_hotel.jpg" alt="">
+                        <img src="image/rajb_hotel.jpg" alt="">
+                    </div>
+                </div>
+                <div class="content_bx">
+                    <h4>Rajputana Hotel</h4>
+                    <h5>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </h5>
+                    <p>   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, corrupti!</p>
+                    <div class="hotel_services">
+                        <li>parking</li>
+                        <li>parking</li>
+                        <li>parking</li>
+                        <li>parking</li>
+                    </div>
+                    <p>
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <span>Mumbai</span>
+                    </p>
+                </div>
+                <div class="price_bx">
+                    <h5> Very Good <span> 4.1</span></h5>
+                    <h5>5000 Rs Night</h5>
+                    <h5>10% Discount</h5>
+                    <a href="#">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
