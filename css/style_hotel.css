@@ -128,3 +128,25 @@ header .navbar a:hover{
     justify-content: space-between;
     margin-top: 10px;
 }
+.hotel_bx .hotelsDetails .hotels .card .img_bx , .content_bx , .price_bx{
+    width: 160px;
+    padding: 10px;
+}
+.hotel_bx .hotelsDetails .hotels .card .img_bx img{
+    border-radius: 8px;
+    margin: 0.6px;
+    width: 100%;
+}
+.hotel_bx .hotelsDetails .hotels .card .img_bx .subImages img{
+    width: 31%;
+    height: 25px;
+}
+.hotel_bx .hotelsDetails .hotels .card .content_bx {
+    width: calc(100% - 320px);
+}
+.hotel_bx .hotelsDetails .hotels .card .content_bx h5 , h4 , p{
+    margin: 0;
+}
+.hotel_bx .hotelsDetails .hotels .card .content_bx h5{
+    margin-top: 5px;
+}
