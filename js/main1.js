@@ -111,8 +111,7 @@ function clickReservation() {
             </div>
 
             <br>
-            <a href="#reserver" class="btn">reserver</a>
-            <a href="#" class="btn1"> detail</a>
+            <a href="#reserver" class="btn">detail</a>
           </div>
         </div>
       `;
